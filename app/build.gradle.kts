@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.example.rayanapppp2"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.rayanapppp2"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 31
         versionCode = 1
         versionName = "1.0"
 
@@ -42,5 +42,7 @@ dependencies {
     implementation ("com.android.volley:volley:1.2.1")   // volley dependencies
     implementation ("com.github.bumptech.glide:glide:4.13.0")              // glide library
     annotationProcessor ("com.github.bumptech.glide:compiler:4.13.0")
+    implementation ("androidx.cardview:cardview:1.0.0")
+
 
 }

@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/Logged_Message"
+        android:text="Logged_Message"
         android:textAlignment="center"
         android:textColor="#101010"
         android:textSize="20sp"
